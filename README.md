@@ -116,22 +116,20 @@ Scans the dataset and produces `index/master_index_{basin}.csv` for all 6 basins
 
 ### Step 2: Train track prediction models
 
-
-# Classification + regression, all 5 stages (MLP, LSTM, Transformer, CNN, Fusion)
+```bash
+# All 5 stages (MLP, LSTM, Transformer, CNN, Fusion) — classification + regression
 # Stages 1-3: ~30 min | Stages 4-5: ~4 hours each
-```bash
 python -m src.scripts.run_all --epochs 50
-```
+
 # Regression only
-```bash
 python -m src.scripts.run_all --regression-only --reg-stages 1 2 3 4 5 --epochs 50
-```
-Outputs to `results/<timestamp>/`: model checkpoints, comparison tables, confusion matrices, training curves, and trajectory visualizations.
 
 # Skip heavy Data3D stages
-```
 python -m src.scripts.run_all --stages 1 2 3 --skip-stage4 --skip-stage5 --epochs 50
 ```
+
+Outputs to `results/<timestamp>/`: model checkpoints, comparison tables, confusion matrices, training curves, and trajectory visualizations.
+
 
 ### Step 3: Train intensity prediction models
 
