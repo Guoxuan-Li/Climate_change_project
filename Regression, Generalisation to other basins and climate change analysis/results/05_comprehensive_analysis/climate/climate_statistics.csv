@@ -1,0 +1,8 @@
+test,slope,intercept,r_value,p_value,std_err,description,statistic,early_median,late_median,slope_per_decade,period_medians_1980-1995,period_medians_1996-2010,period_medians_2011-2023
+peak_wind_trend,-0.19733930732191834,433.12787919687196,-0.24251147368318035,1.7155272560077918e-25,0.01862282248600372,Linear regression of peak wind vs year,,,,,,,
+integrated_intensity_trend,-16.330036157592797,37483.69717487634,-0.10573553291215827,6.982591301128716e-06,3.6228534759274424,Linear regression of integrated intensity vs year,,,,,,,
+mannwhitney_peak_wind_early_vs_late,,,,8.61025304795639e-09,,Mann-Whitney U: peak wind pre-1990 vs post-2000,315662.0,40.0,38.0,,,,
+cat4_trend,,,-0.6064747237070885,0.11092775081598097,,Linear regression of Cat4+ % vs decade,,,,-2.447120428301096,,,
+ri_trend,,,-0.6637107468980453,0.07271040206838592,,Linear regression of RI% vs decade,,,,-5.516389877906511,,,
+kruskal_peak_wind_3periods,,,,0.678274260383044,,Kruskal-Wallis: peak_wind across 3 satellite-era periods,0.7764071179922192,,,,35.0,35.0,35.0
+kruskal_integrated_intensity_3periods,,,,0.8384765884416348,,Kruskal-Wallis: integrated_intensity across 3 satellite-era periods,0.3523372377399669,,,,4066.5,4095.0,3976.5

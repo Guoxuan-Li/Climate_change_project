@@ -1,0 +1,18 @@
+{
+  "epochs": 50,
+  "batch_size": 64,
+  "lr": 0.001,
+  "patience": 7,
+  "seed": 42,
+  "stages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "cls_only": false,
+  "reg_only": false,
+  "skip_baseline": false,
+  "timestamp": "20260326_101551",
+  "device": "cuda"
+}

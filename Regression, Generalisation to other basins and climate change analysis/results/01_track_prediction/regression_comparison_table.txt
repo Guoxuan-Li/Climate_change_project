@@ -1,0 +1,10 @@
+REGRESSION COMPARISON — ALL MODELS (Test Set)
+================================================================================
+
+                    Model MAE (km) Median Err (km) Derived Acc Derived F1 R2 (dlon) R2 (dlat)
+        Persistence (Reg)   280.92          213.05      0.4943     0.3309    0.6124    0.3694
+     Reg Stage 1: Env MLP   230.92          185.34      0.5481     0.3528    0.7413    0.5499
+ Reg Stage 2: LSTM Data1D   214.40          171.17      0.6093     0.4068    0.8053    0.6549
+Reg Stage 3: Env Temporal   235.56          186.65      0.5525     0.3675    0.7596    0.5747
+  Reg Stage 4: CNN Data3D   138.29          113.42      0.7169     0.5437    0.9167    0.8160
+      Reg Stage 5: Fusion   153.05          126.24      0.7048     0.5402    0.9106    0.8134

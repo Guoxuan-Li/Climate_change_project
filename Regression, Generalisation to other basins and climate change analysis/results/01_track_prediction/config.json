@@ -1,0 +1,28 @@
+{
+  "stages": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "skip_stage4": false,
+  "skip_stage5": false,
+  "skip_regression": false,
+  "regression_only": false,
+  "reg_stages": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "batch_size": 64,
+  "epochs": 50,
+  "lr": 0.001,
+  "focal_gamma": 2.0,
+  "patience": 7,
+  "seed": 42,
+  "timestamp": "20260325_233354",
+  "device": "cuda"
+}

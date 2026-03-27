@@ -1,0 +1,11 @@
+{
+  "temporal_only": true,
+  "basin_only": false,
+  "batch_size": 64,
+  "epochs": 50,
+  "lr": 0.001,
+  "patience": 7,
+  "seed": 42,
+  "timestamp": "20260326_023435",
+  "device": "cuda"
+}

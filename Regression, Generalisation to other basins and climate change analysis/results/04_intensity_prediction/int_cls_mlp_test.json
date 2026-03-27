@@ -1,0 +1,56 @@
+{
+  "accuracy": 0.2934071464519376,
+  "macro_f1": 0.2932736904076454,
+  "weighted_f1": 0.3391538625551476,
+  "per_class_f1": {
+    "Strengthening": 0.3369995600527937,
+    "Str-then-Weak": 0.16561743341404359,
+    "Weakening": 0.3962460896767466,
+    "Maintaining": 0.27423167848699764
+  },
+  "per_class_precision": {
+    "Strengthening": 0.8665158371040724,
+    "Str-then-Weak": 0.09334061135371179,
+    "Weakening": 0.7063197026022305,
+    "Maintaining": 0.19965576592082615
+  },
+  "per_class_recall": {
+    "Strengthening": 0.2091753140360459,
+    "Str-then-Weak": 0.7339055793991416,
+    "Weakening": 0.2753623188405797,
+    "Maintaining": 0.4377358490566038
+  },
+  "per_class_support": {
+    "Strengthening": 1831,
+    "Str-then-Weak": 233,
+    "Weakening": 1380,
+    "Maintaining": 530
+  },
+  "confusion_matrix": [
+    [
+      383,
+      688,
+      73,
+      687
+    ],
+    [
+      5,
+      171,
+      33,
+      24
+    ],
+    [
+      11,
+      770,
+      380,
+      219
+    ],
+    [
+      43,
+      203,
+      52,
+      232
+    ]
+  ],
+  "report_str": "               precision    recall  f1-score   support\n\nStrengthening       0.87      0.21      0.34      1831\nStr-then-Weak       0.09      0.73      0.17       233\n    Weakening       0.71      0.28      0.40      1380\n  Maintaining       0.20      0.44      0.27       530\n\n     accuracy                           0.29      3974\n    macro avg       0.47      0.41      0.29      3974\n weighted avg       0.68      0.29      0.34      3974\n"
+}
